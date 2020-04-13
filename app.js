@@ -17,7 +17,6 @@ switch (comando) {
         crearArchivo(base, limite)
             .then(archivo => console.log('El archivo', colors.green(archivo), 'ha sido creado!'))
             .catch(err => console.log(err));
-        console.log('crear');
         break;
     default:
         console.log(`comando '${comando}' no reconocido`);
